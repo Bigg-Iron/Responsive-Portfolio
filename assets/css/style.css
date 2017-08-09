@@ -242,13 +242,10 @@ input[type=submit] {
 
 @media only screen and (max-width:980px) {}
 
-
-
 @media only screen and (max-width:768px) {
   .main-section {
     max-width: 600px;
     margin: 10%;
-
   }
   .sidebar {
     text-align: center;
@@ -257,6 +254,9 @@ input[type=submit] {
   }
   nav {
     margin: 5%;
+  }
+  header#masthead {
+    height: 75px;
   }
 }
 
@@ -272,5 +272,8 @@ input[type=submit] {
   }
   nav {
     margin: 5%;
+  }
+  header#masthead {
+    height: 75px;
   }
 }
